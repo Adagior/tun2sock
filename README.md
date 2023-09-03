@@ -10,9 +10,9 @@ https://github.com/eycorsican/go-tun2socks/releases/download/v1.11.2/tun2socks-w
 ```
 tun2socks-windows-4.0-amd64.exe -h
 
-tun2socks-windows-4.0-amd64.exe -tunAddr 10.0.0.2 -tunGw 10.0.0.1 -proxyType socks -proxyServer ?.?.?.?:1086 -tunDns 8.8.8.8,8.8.4.4
+tun2socks-windows-4.0-amd64.exe -tunName "Local Area Connection" -tunAddr 10.0.0.2 -tunGw 10.0.0.1 -proxyType socks -proxyServer ?.?.?.?:1086 -tunDns 8.8.8.8,8.8.4.4
 
-tun2socks-windows-4.0-amd64.exe -tunAddr 10.0.0.2 -tunGw 10.0.0.1 -proxyType shadowsocks -proxyServer ?.?.?.?:1086 -dnsServer 8.8.8.8,8.8.4.4 -proxyCipher AES-256-CFB -proxyPassword 123456
+tun2socks-windows-4.0-amd64.exe -tunName "Local Area Connection" -tunAddr 10.0.0.2 -tunGw 10.0.0.1 -proxyType shadowsocks -proxyServer ?.?.?.?:1086 -dnsServer 8.8.8.8,8.8.4.4 -proxyCipher AES-256-CFB -proxyPassword 123456
 
 
 ```
